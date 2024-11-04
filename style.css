@@ -131,3 +131,104 @@
     text-align: end;
     font-size: 50px;
 }
+
+/* PROJECTS SECTION */
+
+#projectsSection {
+    height: 100vh;
+    background-color: #252C46;
+    overflow: hidden;
+}
+
+#txtContainer h1 {
+    text-align: center;
+    margin: 50px;
+    color: #CDCDCD;
+}
+
+#projectsContainer {
+    margin: 100px;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#project1, #project2, #project3 {
+    height: 70%;
+    width: 300px;
+}
+
+#pj1Img {
+    height: 40%;
+    background-image: url(./img/devLinks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pj1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    background-color: #22263A;
+}
+
+#pj1text div {
+    padding: 5px;
+}
+
+.pj1content p, .pj2content p {
+    color: #737373;
+}
+
+.pj1title h3 {
+    text-align: center;
+    color: #CDCDCD;
+}
+
+#technologies {
+    display: flex;
+    gap: 10px;
+}
+
+#technologies img {
+    height: 20px;
+}
+
+#pj2Img {
+    height: 40%;
+    background-image: url(./img/limoChat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pj2text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    background-color: #22263A;
+}
+
+#pj2text div {
+    padding: 5px;
+}
+
+.pj2title h3 {
+    text-align: center;
+    color: #CDCDCD;
+}
+
+#project3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22263A;
+}
+
+#project3 p {
+    color: #CDCDCD;
+}
