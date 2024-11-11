@@ -266,7 +266,7 @@
     color: white;
 }
 
-#CTmainContainer #submitBTN {
+#CTmainContainer button {
     width: calc(100% - 40px);
     margin: 0 20px 20px;
     padding: 10px;
@@ -277,7 +277,7 @@
     transition: 0.5s;
 }
 
-#CTmainContainer #submitBTN:hover {
+#CTmainContainer button:hover {
     background-color: #354a96;
 }
 
